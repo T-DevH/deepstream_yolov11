@@ -4,7 +4,7 @@ This repository enables real-time object detection using **YOLOv11** integrated 
 
 ---
 
-## 📦 Project Structure
+##  Project Structure
 
 ```
 deepstream_yolov11/
