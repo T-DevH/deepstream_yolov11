@@ -1,0 +1,11 @@
+[property]
+onnx-file=/workspace/yolo11s.onnx
+model-engine-file=/workspace/yolo11s_b1_gpu0_fp16.engine
+custom-network-config=yolov11.cfg
+network-type=0
+num-detected-classes=80
+infer-dims=3;640;640
+custom-lib-path=/workspace/DeepStream-Yolo/nvdsinfer_custom_impl_Yolo/libnvdsinfer_custom_impl_Yolo.so
+batch-size=1
+network-mode=2
+gie-unique-id=1
