@@ -1,4 +1,4 @@
-# 🚀 Deploy YOLOv11 with NVIDIA DeepStream 7.1
+#  Deploy YOLOv11 with NVIDIA DeepStream 7.1
 
 This repository enables real-time object detection using **YOLOv11** integrated into the **NVIDIA DeepStream SDK (7.1)** via the official container from **NGC (NVIDIA GPU Cloud)**.
 
@@ -19,7 +19,7 @@ deepstream_yolov11/
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 - Convert **YOLOv11** PyTorch model to **ONNX**
 - Integrate into **DeepStream 7.1 pipeline**
@@ -27,7 +27,7 @@ deepstream_yolov11/
 
 ---
 
-## 🧰 Requirements
+##  Requirements
 
 - NVIDIA GPU with drivers installed
 - [Docker](https://docs.docker.com/engine/install/)
@@ -37,12 +37,12 @@ deepstream_yolov11/
 
 ---
 
-## 🔧 Setup Instructions
+##  Setup Instructions
 
 ### 1. Clone This Repo
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/deepstream_yolov11.git
+git clone https://github.com/T-DevH/deepstream_yolov11.git
 cd deepstream_yolov11
 ```
 
@@ -101,7 +101,7 @@ You should see real-time object detection running on the provided video (edit `d
 
 ---
 
-### 📥 How `DeepStream-Yolo` Is Used
+###  How `DeepStream-Yolo` Is Used
 
 This project integrates with the excellent [DeepStream-Yolo](https://github.com/marcoslucianops/DeepStream-Yolo) project to:
 
@@ -115,17 +115,17 @@ These steps are handled automatically:
 - The ONNX export is performed in `setup.sh`.
 - The `.so` plugin is referenced inside `config_infer_primary_yoloV11.txt`.
 
-🔧 No manual steps are needed — everything is automated within the Docker container.
+ No manual steps are needed — everything is automated within the Docker container.
 
 ---
 
-## 📄 License
+##  License
 
 This project uses open-source components under their respective licenses (YOLO, DeepStream, Ultralytics).
 
 ---
 
-## 🤝 Acknowledgements
+##  Acknowledgements
 
 - [Ultralytics](https://github.com/ultralytics/ultralytics)
 - [NVIDIA DeepStream SDK](https://developer.nvidia.com/deepstream-sdk)
@@ -133,6 +133,6 @@ This project uses open-source components under their respective licenses (YOLO, 
 
 ---
 
-## 💬 Need Help?
+##  Need Help?
 
 Feel free to open an issue or reach out if you need help with DeepStream, YOLO export, or pipeline tuning!
